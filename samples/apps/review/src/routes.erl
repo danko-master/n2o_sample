@@ -26,4 +26,5 @@ route(<<"login">>)       -> login;
 route(<<"favicon.ico">>) -> static_file;
 route(<<"static/spa/spa.htm">>)   -> login;
 route(<<"static/spa/index.htm">>) -> index;
+route(<<"test">>)       -> test;
 route(_) -> login.
